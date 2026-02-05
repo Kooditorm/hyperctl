@@ -28,7 +28,7 @@
   },
   "autoload": {
     "psr-4": {
-      "kooditorm/hyperctl": "src/"
+      "kooditorm\\hyperctl\\": "src/"
     }
   },
   "extra": {
