@@ -1,0 +1,39 @@
+{
+  "name": "kooditorm/hyperctl",
+  "description": "Application lifecycle manager for Hyperf framework",
+  "keywords": [
+    "hyperf",
+    "process-manager",
+    "application-lifecycle",
+    "daemon",
+    "supervisor",
+    "service-control",
+    "startup",
+    "shutdown",
+    "swoole"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "oswin.hu",
+      "email": "oswin.hu@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=8.1",
+    "hyperf/command": "~v3.1.0"
+  },
+  "require-dev": {
+    "ext-inotify": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "kooditorm/hyperctl": "src/"
+    }
+  },
+  "extra": {
+    "hyperf": {
+      "config": "kooditorm\\hyperctl\\ConfigProvider"
+    }
+  }
+}
