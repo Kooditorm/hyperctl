@@ -12,6 +12,7 @@
     "shutdown",
     "swoole"
   ],
+  "homepage": "https://github.com/Kooditorm/hyperctl",
   "license": "MIT",
   "authors": [
     {
