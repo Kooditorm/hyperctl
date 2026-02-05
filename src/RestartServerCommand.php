@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace HyperCtl;
+namespace kooditorm\hyperctl;
 
 use Hyperf\Command\Annotation\Command;
 use Symfony\Component\Console\Input\InputInterface;

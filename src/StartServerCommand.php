@@ -1,7 +1,7 @@
 <?php
 declare(strict_types=1);
 
-namespace HyperCtl;
+namespace kooditorm\hyperctl;;
 
 use HyperCtl\Watcher\FileWatcherInterface;
 use HyperCtl\Watcher\InotifyWatcher;
