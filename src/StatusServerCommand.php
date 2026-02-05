@@ -14,7 +14,7 @@ class StatusServerCommand extends StartServerCommand
     public function __construct()
     {
         parent::__construct();
-        $this->setName('tcl:status');
+        $this->setName('ctl:status');
     }
 
     protected function configure(): void

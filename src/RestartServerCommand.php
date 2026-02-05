@@ -15,7 +15,7 @@ class RestartServerCommand extends StartServerCommand
     public function __construct()
     {
         parent::__construct();
-        $this->setName('tcl:restart');
+        $this->setName('ctl:restart');
     }
 
     protected function configure(): void
