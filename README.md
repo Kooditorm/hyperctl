@@ -50,9 +50,6 @@ php bin/hyperf.php ctl:status      # 查看服务状态
 - Watch 模式会监控 `app`、`config` 目录以及 `.env` 文件，支持 `inotify` 扩展优先使用
 - 需要 PHP >= 8.1，并依赖 `hyperf/command` 包
 
-### 自定义配置
-
-你可以通过修改配置文件来自定义行为，例如设置日志路径、PID 文件位置等。
 
 ## 贡献
 
