@@ -1,11 +1,11 @@
 <?php
 declare(strict_types=1);
 
-namespace kooditorm\hyperctl;;
+namespace kooditorm\hyperctl;
 
-use HyperCtl\Watcher\FileWatcherInterface;
-use HyperCtl\Watcher\InotifyWatcher;
-use HyperCtl\Watcher\SimpleFileWatcher;
+use kooditorm\hyperctl\Watcher\FileWatcherInterface;
+use kooditorm\hyperctl\Watcher\InotifyWatcher;
+use kooditorm\hyperctl\Watcher\SimpleFileWatcher;
 use ErrorException;
 use FilesystemIterator;
 use Hyperf\Command\Annotation\Command;
